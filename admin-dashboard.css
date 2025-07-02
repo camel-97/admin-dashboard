@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: solid;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-areas: 
+    "sidebar search search"
+    "sidebar nav nav"
+    "sidebar nav nav"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements"
+    "sidebar projects announcements";
+}
+
+.search {
+    grid-area: search;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.projects{
+    grid-area: projects;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+
