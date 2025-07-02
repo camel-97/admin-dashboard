@@ -35,9 +35,12 @@
 .search {
     grid-area: search;
 }
+.search img {
+    width: 18px;
+}
 
 .sidebar{
-    grid-area: sidebar;
+    grid-area: sidebar
 }
 
 .nav {
@@ -51,5 +54,20 @@
 .announcements {
     grid-area: announcements;
 }
+
+.logo {
+    width: 5vw;
+}
+
+.sidebar-grid img {
+    width: 3vw
+}
+
+.sidebar-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(10, 1fr);
+}
+
 
 
