@@ -4,6 +4,9 @@
     border: solid;
     box-sizing: border-box;
 }
+img{
+    width: 18px;
+}
 
 .container {
     width: 100vw;
@@ -34,17 +37,30 @@
 
 .search {
     grid-area: search;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.search-right-side, .search-left-side {
+    display: flex;
+    align-items: center;
+
+    
 }
 .search img {
     width: 18px;
 }
 
 .sidebar{
-    grid-area: sidebar
+    grid-area: sidebar;
 }
 
 .nav {
     grid-area: nav;
+    display: flex;
 }
 
 .projects{
